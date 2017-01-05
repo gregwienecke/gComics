@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>gComics | Home</title>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="nav">
+				<a href="index.html"><p id="logo"><span id="g1">g</span><span class="salmon">C</span>omics</p></a>
+				<ul>
+					<li id="noColor"><input type="text" id="search" placeholder="Search"/></li>
+					<a href="index.html"><li>Home</li></a>
+					<a href="about.html"><li>About</li></a>
+					<a href="contact.html"><li>Contact</li></a>
+					<a href="cart.html"><li>Cart</li></a>
+					<a href="signIn.html"><li>Sign In</li></a>
+				</ul>
+			</div>
+		</header>
+
+		<div>
+			<h1 id="banner"><span id="g">g</span><span class="salmon">C</span><span id="end">omics</span></h1>
+			<div id="content">
+				<div id="menu">
+					<ul id="titles">
+						<li><h1>TITLE</h1></li>
+						<li class="item" onClick="shop('bs')">Black Science</li>
+						<li class="item" onClick="shop('dc')">Deadly Class</li>
+						<li class="item" onClick="shop('ew')">East Of West</li>
+						<li class="item" onClick="shop('fa')">Fables</li>
+						<li class="item" onClick="shop('hl')">Head Lopper</li>
+						<li class="item" onClick="shop('ir')">Invisible Republic</li>
+						<li class="item" onClick="shop('is')">Island</li>
+						<li class="item" onClick="shop('lo')">Low</li>
+						<li class="item" onClick="shop('od')">ODYC</li>
+						<li class="item" onClick="shop('pd')">Pretty Deadly</li>
+						<li class="item" onClick="shop('se')">Seven To Eternity</li>
+						<li class="item" onClick="shop('tg')">Tokyo Ghost</li>
+						<li><h1>AUTHOR</h1></li>
+						<li class="item" onClick="shop('pd')">Kelly DeConnick</li>
+						<li class="item" onClick="shop('od')">Matt Fraction</li>
+						<li class="item" onClick="shop('ir')">Gabriel Hardman</li>
+						<li class="item" onClick="shop('ew')">Jonathan Hickman</li>
+						<li class="item" onClick="shop('hl')">Andrew MacLean</li>
+						<li class="item" onClick="shop('bs')">Rick Remender</li>
+						<li class="item" onClick="shop('fa')">Bill Willingham</li>
+					</ul>
+				</div>
+				<div id="gallery">
+					<img src="../images/blackscience.png" onClick="shop('bs')">
+					<img src="../images/deadlyclass.png" onClick="shop('dc')">
+					<img src="../images/eastofwest.png" onClick="shop('ew')">
+					<img src="../images/fables.jpg" onClick="shop('fa')">
+
+					<img src="../images/headlopper.png" onClick="shop('hl')">
+					<img src="../images/irepub.png" onClick="shop('ir')">
+					<img src="../images/island.jpg" onClick="shop('is')">
+					<img src="../images/low.png" onClick="shop('lo')">
+
+					<img src="../images/odyc.png" onClick="shop('od')">
+					<img src="../images/pd.jpg" onClick="shop('pd')">
+					<img src="../images/seven.png" onClick="shop('se')">
+					<img src="../images/tokyoghost.png" onClick="shop('tg')">
+				</div>
+
+				<div id="shopDiv" class="hidden">
+					<h3 id="shopHeader" class="bgSalmon">shop</h3>
+					<div id="shopContainer">
+						<div id="comicPhoto"></div>
+						<div id="addToCart"><input type="button" value="add to cart" style="width: 140px"/></div>
+						<div id="comicTitle"></div>
+						<div id="comicAuthor"></div>
+						<div id="comicPrice"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<footer>
+			<p>Created by Greg Wienecke</p>
+			<p>|</p>
+			<p>&copy 2016</p>
+			<p>|</p>
+			<a href="contact.html"><p id="footerLink">Contact</p></a>
+			<p>|</p>
+			<a href="http://twitter.com/GregWienecke" target="_blank"><p id="footerLink">Twitter</p></a>
+		</footer>
+		<script src="../js/gComics.js"></script>
+	</body>
+</html>

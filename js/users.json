@@ -1,0 +1,25 @@
+{ "users": { 
+		"Greg": {
+			"name": "Greg", 
+			"email": "gregwienencke@gmail.com", 
+			"password": "test1"
+		},
+		"Test": {
+			"name": "test", 
+			"email": "test@gmail.com", 
+			"password": "test2"
+		},
+		"Sara": {
+			"name": "Sara",
+			"email": "sarajean.mcdaniel@gmail.com",
+			"password": "test3"
+		},
+		"Kyle": {
+			"name": "Kyle",
+			"email": "kyle@gmail.com",
+			"password": "test4"
+		}
+	}
+}
+
+

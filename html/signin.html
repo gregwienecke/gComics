@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>gComics | Sign In</title>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div id="nav">
+				<a href="index.html"><p id="logo"><span id="g1">g</span><span class="salmon">C</span>omics</p></a>
+				<ul>
+					<a href="index.html"><li>Home</li></a>
+					<a href="about.html"><li>About</li></a>
+					<a href="contact.html"><li>Contact</li></a>
+					<a href="cart.html"><li>Cart</li></a>
+					<a href="signIn.html"><li>Sign In</li></a>
+				</ul>
+			</div>
+		</header>
+
+		<div>
+			<h1 id="banner"><span id="g">g</span><span class="salmon">C</span><span id="end">omics</span></h1>
+			<div id="signin">
+				<h1>Sign In</h1>
+				<form id="form">
+					<label>Username</label>
+					<input type="text" id="username"/>
+					<label>Password</label>
+					<input type="password" id="password"/>
+					<input type=button value="Sign In" onClick="loginClicked()"/>
+					<input type=button value="Register As New User" onClick="registerClicked()"/>
+				</form>
+			</div>
+
+			<div id="welcome" class="hidden">
+				<div id="welcome"></div>
+			</div>
+		</div>
+		
+
+		<footer>
+			<p>Created by Greg Wienecke</p>
+			<p>|</p>
+			<p>&copy 2016</p>
+			<p>|</p>
+			<a href="contact.html"><p id="footerLink">Contact</p></a>
+			<p>|</p>
+			<a href="http://twitter.com/GregWienecke" target="_blank"><p id="footerLink">Twitter</p></a>
+		</footer>
+		<script src="../js/gComics.js"></script>
+	</body>
+</html>
